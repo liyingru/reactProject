@@ -1,0 +1,65 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+html,body,#root{
+    width: 100%;
+    height: 100%;
+}
+.App{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.App>header{
+    padding: 0 10px;
+    box-sizing: border-box;
+    width: 100%;
+    height: 44px;
+    line-height: 44px;
+    font-size: 18px;
+    color: #fff;
+    background: #0079E1;
+}
+.App .content{
+    overflow-y: auto; 
+    padding: 10px;
+    box-sizing: border-box;
+    width: 100%;
+    flex: 1;
+}
+.App .content .add{
+    width: 100%;
+    height: 44px;
+    display: flex;
+    justify-content: space-between;
+}
+.choice-city{
+    padding: 0 10px;
+    box-sizing: border-box;
+    width: 100%;
+    border-bottom: 1px solid #eee;
+}
+.choice-city h4{
+    line-height: 40px;
+}
+.choice-city ul{
+    display: block;
+}
+.choice-city ul li{
+    display: inline-block;
+    padding: 0 10px;
+    margin: 0 5px;
+    line-height: 30px;
+}
+
+.city ul li{
+    padding: 0 20px;
+    display: inline-block;
+    line-height: 30px;
+}
+.active{
+    background: yellow;
+}

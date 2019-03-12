@@ -1,0 +1,32 @@
+{
+    "code": 0,
+    "data": [{
+        "id": 1,
+        "title": "徐福记沙琪玛松软蛋酥味蛋黄味随",
+        "price": "1.9",
+        "img": "/images/a1.jpg",
+        "count": 0,
+        "isCheck": false
+    }, {
+        "id": 2,
+        "title": "高乐蜜芒果250g-z350g*1个",
+        "price": "9.9",
+        "img": "/images/a2.jpg",
+        "count": 0,
+        "isCheck": false
+    }, {
+        "id": 3,
+        "title": "陕西徐香迷糊桃70g-90g*4个",
+        "price": "8.9",
+        "img": "/images/a3.jpg",
+        "count": 0,
+        "isCheck": false
+    }, {
+        "id": 4,
+        "title": "四川金奇异果90g-100g*4个",
+        "price": "9.9",
+        "img": "/images/a4.jpg",
+        "count": 0,
+        "isCheck": false
+    }]
+}

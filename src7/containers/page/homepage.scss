@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+}
+
+#root {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.fast {
+    width: 100%;
+    height: 45px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    input {
+        width: 100%;
+        height: 35px;
+        padding-left: 10px;
+        border: 0;
+        outline: none;
+    }
+    .button {
+        flex: 1;
+        display: flex;
+        padding-left: 10px;
+        button {
+            flex: 1;
+            height: 40px;
+            border-radius: 0%;
+            outline: none;
+            border: 0;
+            flex-shrink: 0;
+            color: #fff;
+            margin: 0;
+        }
+        .income {
+            background: red;
+            font-size: 18px;
+            font-weight: bolder;
+        }
+        .exptend {
+            background: green;
+            font-size: 16px;
+        }
+        .del {
+            background: skyblue;
+            font-size: 14px;
+        }
+    }
+}
+
+.list {
+    width: 100%;
+    flex: 1;
+    li {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 10px;
+        box-sizing: border-box;
+        h1 {
+            width: 200px;
+            font-weight: normal;
+            display: flex;
+            span {
+                display: inline-block;
+                width: 50px;
+                height: 50px;
+                line-height: 50px;
+                ;
+                background: green;
+                border-radius: 100%;
+                color: #fff;
+                font-size: 12px;
+                text-align: center;
+            }
+            b {
+                padding-left: 10px;
+                box-sizing: border-box;
+                display: flex;
+                flex-direction: column;
+                font-size: 16px;
+                em:nth-child(1) {
+                    color: red;
+                    font-style: normal;
+                }
+                em:nth-child(2) {
+                    color: gray;
+                    font-style: normal;
+                }
+            }
+        }
+        h3 {
+            font-weight: normal;
+            display: flex;
+            flex-direction: column;
+            flex-shrink: 12px;
+            color: gray;
+        }
+    }
+}
+
+.btn {
+    width: 50px;
+    height: 50px;
+    background: red;
+    border-radius: 100%;
+    text-align: center;
+    font-size: 36px;
+    // line-height: 50px;
+    color: #fff;
+    flex-shrink: 0;
+    margin: 0 50%;
+}

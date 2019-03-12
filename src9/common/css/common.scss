@@ -1,0 +1,193 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+html,
+body,
+#root,
+.wrap {
+    width: 100%;
+    height: 100%;
+}
+
+.wrap {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    height: 45px;
+    line-height: 45px;
+    background: #0097FF;
+    color: #fff;
+    justify-content: space-around;
+    flex-shrink: 0;
+}
+
+.home_content {
+    width: 100%;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    overflow-y: scroll;
+    header {
+        width: 100%;
+        height: 45px;
+        flex-shrink: 0;
+    }
+    .content {
+        flex: 1;
+        overflow-y: auto;
+        .home_c {
+            width: 100%;
+            li {
+                padding-bottom: 15px;
+                box-sizing: border-box;
+            }
+            dl {
+                width: 100%;
+                display: flex;
+                padding: 0 10px;
+                box-sizing: border-box;
+                dt {
+                    width: 25%;
+                    img {
+                        width: 100%;
+                    }
+                }
+                dd {
+                    width: 75%;
+                    padding: 15px 0 0 10px;
+                    box-sizing: border-box;
+                    .home_e {
+                        display: flex;
+                        padding: 10px 0;
+                        box-sizing: border-box;
+                        span {
+                            display: inline-block;
+                            width: 30px;
+                            font-size: 12px;
+                            height: 20px;
+                            line-height: 20px;
+                            text-align: center;
+                            color: #6f3f15;
+                            background: #fff100;
+                            border-radius: 3px;
+                        }
+                        h3 {
+                            font-size: 14px;
+                            padding-left: 10px;
+                            box-sizing: border-box;
+                        }
+                    }
+                    p {
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                    }
+                }
+            }
+        }
+    }
+    .home_l {
+        width: 100%;
+        overflow-y: auto;
+        height: 230px;
+        display: flex;
+        flex-shrink: 0;
+        padding: 10px;
+        flex-wrap: wrap;
+        box-sizing: border-box;
+        li {
+            width: 20%;
+            display: flex;
+            flex-shrink: 0;
+            flex-direction: column;
+            padding: 5px 10px;
+            box-sizing: border-box;
+            text-align: center;
+            span {
+                width: 100%;
+                font-size: 12px;
+                padding-bottom: 10px;
+                color: #666;
+                img {
+                    width: 100%;
+                }
+            }
+        }
+    }
+    .swiper-container {
+        width: 100%;
+        height: 150px;
+        .swiper-pagination-bullet {
+            width: 17px!important;
+            height: 6px!important;
+            display: inline-block;
+            border-radius: 0%!important;
+        }
+    }
+}
+
+.home_list {
+    width: 100%;
+    height: 45px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    flex-shrink: 0;
+    box-sizing: border-box;
+    border-top: 1px solid #ccc;
+    li {
+        flex: 1;
+        text-align: center;
+    }
+}
+
+.home_t {
+    flex: 1;
+    .home_title {
+        width: 100%;
+        height: 45px;
+        display: flex;
+        padding: 0 10px;
+        box-sizing: border-box;
+        justify-content: space-between;
+        align-items: center;
+        color: #666;
+    }
+}
+
+.color {
+    color: #000;
+}
+
+footer {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    height: 50px;
+    flex-shrink: 0;
+    background: #f8f8f8;
+    border-top: 1px solid #ccc;
+    line-height: 25px;
+    dl dt,
+    dl dd {
+        text-align: center;
+    }
+}
+
+.hungry-active {
+    color: #0097FF;
+}

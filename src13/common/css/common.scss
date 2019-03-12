@@ -1,0 +1,261 @@
+* {
+    padding: 0;
+    margin: 0
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #ccc;
+}
+
+html,
+body,
+#root,
+.wrap {
+    width: 100%;
+    height: 100%;
+}
+
+.wrap {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    height: 45px;
+    line-height: 45px;
+    background: #fff;
+    border-bottom: 1px solid #ccc;
+    color: #000;
+    justify-content: space-around;
+    flex-shrink: 0;
+}
+
+.content {
+    width: 100%;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    overflow: hidden;
+    overflow-y: scroll;
+    background: #fff;
+    .swiper-container {
+        width: 100%;
+        height: 200px;
+        .swiper-wrapper {
+            width: 100%;
+            height: 100%;
+            .swiper-slide {
+                width: 100%;
+                height: 100%;
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+        .swiper-pagination-bullet-active {
+            background: #F7D247;
+        }
+    }
+    .section {
+        width: 100%;
+        h3 {
+            width: 100%;
+            height: 50px;
+            line-height: 50px;
+            text-align: center;
+        }
+        .content {
+            width: 100%;
+            height: 300px;
+            display: flex;
+            >div {
+                width: 100%;
+                display: flex;
+                overflow: hidden;
+                overflow-x: auto;
+                .con {
+                    width: 180px;
+                    height: 300px;
+                    padding: 0 10px;
+                    box-sizing: border-box;
+                    display: flex;
+                    flex-direction: column;
+                    margin: 0 10px;
+                    img {
+                        width: 140px;
+                        height: 150px;
+                    }
+                    h4 {
+                        font-weight: 400;
+                    }
+                    p {
+                        color: #666;
+                        margin: 10px 0;
+                    }
+                    span {
+                        width: 100%;
+                        display: flex;
+                        justify-content: space-between;
+                        strong {
+                            color: red;
+                        }
+                        b {
+                            width: 40px;
+                            height: 40px;
+                            background: #F7D247;
+                            border-radius: 50%;
+                            line-height: 40px;
+                            text-align: center;
+                            margin-top: -10px;
+                        }
+                        .iconfont {
+                            font-size: 23px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.shopCar {
+    width: 100%;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    input {
+        width: 20px;
+        height: 20px;
+    }
+    header {
+        width: 100%;
+        height: 44px;
+        border-bottom: 1px solid #CCC;
+        text-align: center;
+        line-height: 44px;
+        font-size: 20px;
+    }
+    .productlist {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        .list {
+            width: 100%;
+            height: 70px;
+            display: flex;
+            align-items: center;
+            padding: 0 10px;
+            box-sizing: border-box;
+            margin-top: 10px;
+            img {
+                width: 50px;
+                height: 100%;
+                margin: 0 20px 0 20px;
+            }
+            .listContent {
+                width: 230px;
+                height: 100%;
+                .listFoot {
+                    display: flex;
+                    margin-top: 10px;
+                    justify-content: space-between;
+                    >span {
+                        color: red;
+                        font-weight: 600;
+                        font-size: 18px;
+                    }
+                    .btns {
+                        display: flex;
+                        span {
+                            width: 25px;
+                            height: 25px;
+                            line-height: 25px;
+                            text-align: center;
+                        }
+                        button {
+                            width: 25px;
+                            height: 25px;
+                            border: 1px solid red;
+                            background: #FFF;
+                            color: red;
+                            line-height: 25px;
+                            text-align: center;
+                            outline: 0;
+                            border-radius: 50%;
+                            font-size: 18px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .allCheck {
+        width: 100%;
+        height: 50px;
+        display: flex;
+        padding-left: 10px;
+        box-sizing: border-box;
+        align-items: center;
+        justify-content: space-between;
+        >div {
+            display: flex;
+            label {
+                margin: 0 10px;
+            }
+            span {
+                color: red;
+            }
+        }
+        button {
+            width: 100px;
+            height: 50px;
+            border: 0;
+            outline: 0;
+            background: #F7D247;
+            font-size: 16px;
+        }
+    }
+}
+
+footer {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    height: 50px;
+    flex-shrink: 0;
+    background: #f8f8f8;
+    border-top: 1px solid #ccc;
+    line-height: 25px;
+    a {
+        position: relative;
+    }
+    dl dt,
+    dl dd {
+        text-align: center;
+    }
+    b {
+        display: block;
+        position: absolute;
+        right: -65px;
+        top: -51px;
+        width: 25px;
+        height: 25px;
+        text-align: center;
+        line-height: 22px;
+        background: red;
+        border-radius: 50%;
+        color: #FFF;
+    }
+}
+
+.love-active {
+    color: #F6D246;
+}

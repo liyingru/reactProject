@@ -1,0 +1,59 @@
+p {
+    border-bottom: 1px solid #ccc;
+    height: 45px;
+    color: gray;
+    padding: 10px 10px;
+    box-sizing: border-box;
+    input {
+        width: 80%;
+        height: 35px;
+        border: none;
+        outline: 0;
+        border-bottom: 1px solid #ccc;
+        padding-left: 10px;
+        box-sizing: border-box;
+    }
+}
+
+.c_list1 {
+    display: flex;
+    padding: 10px 10px;
+    box-sizing: border-box;
+    li {
+        width: 20%;
+        text-align: center;
+        line-height: 35px;
+        height: 35px;
+        span {
+            display: inline-block;
+            background: #666;
+            width: 80%;
+            line-height: 35px;
+            height: 35px;
+            border-radius: 15px;
+            color: #fff;
+            border: 0;
+            outline: none;
+            text-align: center;
+        }
+    }
+}
+
+button {
+    width: 90%;
+    height: 45px;
+    margin: 10px 5%;
+    border: 1px solid #ccc;
+    outline: none;
+    font-size: 16px;
+    color: #fff;
+    border-radius: 15px;
+}
+
+.zc {
+    background: green;
+}
+
+.sr {
+    background: red;
+}

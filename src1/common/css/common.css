@@ -1,0 +1,259 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+html,
+body,
+#root,
+.wrap {
+    width: 100%;
+    height: 100%;
+}
+
+.wrap {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    width: 100%;
+    height: 44px;
+    border-bottom: 1px solid #ccc;
+    background: #31C27C;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+    box-sizing: border-box;
+    flex-shrink: 0;
+}
+
+header p img {
+    margin-top: 8px;
+    width: 120%;
+}
+
+.load {
+    background: #149C5A;
+    color: #fff;
+    height: 30px;
+    line-height: 30px;
+    margin-top: 6px;
+    padding: 0 10px;
+    box-sizing: border-box;
+    border-radius: 30px;
+}
+
+.home {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.tab {
+    width: 100%;
+    display: flex;
+    border-bottom: 1px solid #f8f8f8;
+    flex-shrink: 0;
+}
+
+.tab li {
+    flex: 1;
+    display: inline-block;
+    line-height: 40px;
+    text-align: center;
+    box-sizing: border-box;
+    margin: 5px 0;
+}
+
+.tab li a {
+    text-decoration: none;
+    color: #333333;
+}
+
+.rank-active {
+    color: #31C27C!important;
+    border-bottom: 1px solid #31C27C;
+}
+
+.rank-wrap {
+    width: 100%;
+    flex: 1;
+    flex-direction: column;
+}
+
+.swiper-container {
+    width: 100%;
+    height: 140px;
+    display: flex;
+    flex-direction: column;
+}
+
+.swiper-wrapper,
+.swiper-slide {
+    width: 100%;
+    height: 100%;
+}
+
+.pic {
+    width: 100%;
+    height: 100%;
+}
+
+.toplist-wrap {
+    width: 100%;
+}
+
+.songlists {
+    width: 100%;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+
+.songlists li {
+    padding: 10px 0;
+    box-sizing: border-box;
+}
+
+.songlists li dl {
+    display: flex;
+}
+
+.songlists li dl dd {
+    padding-left: 10px;
+    box-sizing: border-box;
+    line-height: 30px;
+    overflow: hidden;
+    /* white-space: nowrap; */
+    text-overflow: ellipsis;
+}
+
+.songlists li dl dd p {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.goods-wrap,
+.cart_wrap {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+.goods_list li,
+.cart_list li {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 10px 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.cart_list li input {
+    margin: 10px 0;
+}
+
+.goods_list li dl,
+.cart_list li dl {
+    display: flex;
+}
+
+.goods_list li dl dd,
+.cart_list li dl dd {
+    width: 200px;
+    margin: 15px 0 15px 20px;
+}
+
+.goods_list li dl dd h4,
+.cart_list li dl dd h4 {
+    margin-bottom: 10px;
+}
+
+.goods_img,
+.cart_img {
+    width: 100px;
+    height: 100px;
+}
+
+.goods_handle,
+.cart_handle {
+    display: flex;
+    justify-content: space-between;
+}
+
+.goods_price,
+.cart_price {
+    color: red;
+}
+
+.goods_title,
+.cart_title {
+    display: flex;
+    box-sizing: border-box;
+    padding: 10px 20px;
+    justify-content: space-between;
+}
+
+.sub span {
+    border: 1px solid #ccc;
+    padding: 0 3px;
+    margin: 0 5px;
+}
+
+.cart_maintit {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0;
+    flex-shrink: 0;
+}
+
+h3 {
+    width: 100%;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+}
+
+label {
+    padding: 0 20px;
+}
+
+.watch {
+    width: 100px;
+}
+
+.cart_bottom {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-around;
+    height: 44px;
+    line-height: 44px;
+    border-top: 1px solid #ccc;
+}

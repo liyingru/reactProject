@@ -1,0 +1,25 @@
+[{
+    "id": 1,
+    "name": "苹果",
+    "price": 8,
+    "add": "陕西富士",
+    "imgurl": "https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=367566168,1295433230&fm=26&gp=0.jpg"
+}, {
+    "id": 2,
+    "name": "香蕉",
+    "price": 2,
+    "add": "海南",
+    "imgurl": "https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=2055399068,3582307321&fm=26&gp=0.jpg"
+}, {
+    "id": 3,
+    "name": "葡萄",
+    "price": 15,
+    "add": "新疆吐鲁番",
+    "imgurl": "https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=2111539277,1856250620&fm=26&gp=0.jpg"
+}, {
+    "id": 4,
+    "name": "火龙果",
+    "price": 10,
+    "add": "海南",
+    "imgurl": "https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=3853569917,481132783&fm=26&gp=0.jpg"
+}]

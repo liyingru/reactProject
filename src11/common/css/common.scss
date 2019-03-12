@@ -1,0 +1,128 @@
+* {
+    padding: 0;
+    margin: 0
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #ccc;
+}
+
+html,
+body,
+#root,
+.wrap {
+    width: 100%;
+    height: 100%;
+}
+
+.wrap {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    height: 45px;
+    line-height: 45px;
+    background: #D7423A;
+    color: #fff;
+    justify-content: space-around;
+    flex-shrink: 0;
+}
+
+.content {
+    width: 100%;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    overflow: hidden;
+    overflow-y: scroll;
+    background: #f8f8f8;
+    ul {
+        padding: 20px;
+        box-sizing: border-box;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        li {
+            margin: 10px 0;
+            width: 20%;
+            dl {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+        .more .iconfont {
+            color: #999;
+        }
+    }
+}
+
+.compile {
+    width: 100%;
+    h4 {
+        padding: 10px;
+        box-sizing: border-box;
+        width: 100%;
+        text-align: right;
+    }
+    ul {
+        display: flex;
+        flex-wrap: wrap;
+        li {
+            position: relative;
+            padding: 5px 3px;
+            margin: 10px 1%;
+            width: 20%;
+            background: #eee;
+            span {
+                position: absolute;
+                top: 0px;
+                right: 0px;
+                width: 15px;
+                height: 15px;
+                border-radius: 50%;
+                line-height: 15px;
+                text-align: center;
+                color: #fff;
+            }
+            .plus {
+                background: blue;
+            }
+            .minu {
+                background: red;
+            }
+            dl {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    }
+}
+
+footer {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    height: 50px;
+    flex-shrink: 0;
+    background: #f8f8f8;
+    border-top: 1px solid #ccc;
+    line-height: 25px;
+    dl dt,
+    dl dd {
+        text-align: center;
+    }
+}
+
+.stock-active {
+    color: #3863A5;
+}
