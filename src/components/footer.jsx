@@ -26,7 +26,7 @@ class Footer extends Component {
                     <dd>分类</dd>
                 </NavLink>
             </dl>
-            <dl>
+            <dl>YB
                 <NavLink to="/love/shopcart" activeClassName="love-active">
                     <dt className="iconfont icon-manage"></dt>
                     <dd>购物车</dd>
